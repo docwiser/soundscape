@@ -1,9 +1,9 @@
 import { Inter } from "next/font/google";
 import Script from 'next/script';
 import "./globals.css";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import Navigation from '../components/nav';
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Navigation from './components/nav';
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
 title: "SoundScape: Explore, Listen, and Share Music",

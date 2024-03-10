@@ -1,4 +1,4 @@
-import Player from '../../components/player';
+import Player from '../components/player';
 export const metadata = { title: "Playing...| Soundscape" };
 function Play({ params }) {
 let musicId = atob(atob(params.id));
