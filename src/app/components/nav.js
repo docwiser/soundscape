@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from 'react';
-import MusicList from '../app/musiclist';
+import MusicList from '../musiclist';
 let Navigation = () => {
 let musicModes = ["Your Breafing", "Hot", "Pop", "HipHop", "Romance", "Romance(Hindi)", "Romance(odia)", "Latest hindi songs", "Trending", "DJ Special", "Latest Odia Songs"];
 let selectedTab = 0;
